@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #555; 
+}
+/* Style the active tab */
+nav ul li a.active {
+    color: #000; 
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* Additional CSS to resize the image */
+img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+/* Style the service section container */
+#services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+/* Center the content within the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Style the service boxes */
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Style the service headings */
+.service h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+/* Style the service descriptions */
+.service p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: #333;
+    margin-right: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
